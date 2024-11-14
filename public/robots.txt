@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /*?*
+
+# Allow static assets
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.woff$
+Allow: /*.woff2$
+
+# Main pages explicitly allowed
+Allow: /$
+Allow: /about-us$
+Allow: /ourportfolio$
+Allow: /our-packages$
+Allow: /contact$
+Allow: /get-quote$
+Allow: /free-consultation$
+
+# Sitemap
+Sitemap: https://flyyourtech.com/sitemap.xml

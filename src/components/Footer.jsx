@@ -131,7 +131,10 @@ function Footer() {
               </span>
             </Link>
             , All Rights Reserved.
-          </span>
+          </span>{" "}
+          <p className=" text-lg md:mt-6 tracking-tight text-white dark:text-gray-300 sm:text-center hover:cursor-pointer hover:underline">
+            <br /> GST ID : 23DEOPG6721R1ZX
+          </p>{" "}
           <div className="flex mt-4 md:mt-12 sm:justify-center  space-x-5 rtl:space-x-reverse">
             <a
               href="https://www.instagram.com/flyyourtech/"

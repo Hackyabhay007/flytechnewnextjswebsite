@@ -98,7 +98,10 @@ const AboutUs = () => {
             transforming your digital vision into reality. Our expertise spans
             across web development, mobile applications, and cutting-edge
             technology solutions.
-          </p>
+          </p>{" "}
+          <span className="text-lg md:mt-12 tracking-tight text-white dark:text-gray-300 sm:text-center hover:cursor-pointer hover:underline">
+            <br /> GST ID : 23DEOPG6721R1ZX
+          </span>{" "}
         </motion.div>
 
         {/* Stats Section */}

@@ -1,6 +1,8 @@
-import React from "react";
-import { Link } from "react-scroll";
+"use client";
 
+import React from "react";
+// import { Link } from "react-scroll";
+import Link from "next/link"; // For page routing
 function Main() {
   return (
     <section className="lg:max-w-screen-2xl relative mx-auto pt-40 lg:pt-56 pb-20  flex flex-col items-center justify-center  ">
@@ -39,12 +41,11 @@ function Main() {
         </p>
       </div>
       <div className="mt-10 z-30  relative ">
-       
-        <a href="/lead-form">
+        <Link href="/lead-form">
           <button className="text-white hover:bg-black   bg-[#913bfe] px-8  rounded-md py-2 text-lg">
             GET STARTED NOW
-            </button>
-        </a>
+          </button>
+        </Link>
       </div>
     </section>
   );

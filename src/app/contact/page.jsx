@@ -125,6 +125,7 @@ const Contact = () => {
     }
   };
 
+  console.log("emailApi", apiKey);
   const handleSubmit = async (e) => {
     e.preventDefault();
     const newErrors = validateForm();
